@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char low;
+	char low, high;
 
 	/* Printing lowercase letters 'a' to 'z' */
 	for (low = 'a'; low <= 'z'; low++)
@@ -21,5 +21,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
 
