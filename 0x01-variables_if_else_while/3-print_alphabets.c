@@ -14,9 +14,9 @@ int main(void)
 	for (low = 'a'; low <= 'z'; low++)
 		putchar(low);
 
-	/* Printing lowercase letters 'a' to 'z' again */
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
+	/* Printing uppercase letters 'A' to 'Z' */
+	for (high = 'A'; high <= 'Z'; high++)
+		putchar(high);
 
 	putchar('\n');
 	return (0);
