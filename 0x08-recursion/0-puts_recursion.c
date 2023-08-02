@@ -12,10 +12,3 @@ void _puts_recursion(char *s) {
     putchar(*s); // Print the current character
     _puts_recursion(s + 1); // Recursively call the function with the next character in the string
 }
-
-int main() {
-    char str[] = "Hello, World!";
-    _puts_recursion(str); // Output: Hello, World!
-
-    return 0;
-}
